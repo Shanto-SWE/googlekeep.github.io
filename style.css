@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+  
+}
+.header{
+    background-color: #f39c12;
+    padding: 15px 10px;
+  
+}
+h1{
+    font-size: 40px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+.fas{
+    padding-right: 5px;
+    color: black;
+}
+
+.btn-div{
+    position: absolute;
+    top: 14%;
+    right: 5%;
+}
+  .btn {
+    border: none;
+    background:darkorange;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    }
+    .btn:hover {
+        color: #404040 !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px;
+        background: none;
+        box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.3s ease 0s;
+        }
+        .note{
+            width: 400px;
+            height: 200px;
+             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+             margin: 20px 30px;
+             margin-top: 7rem;
+             overflow-y: scroll;
+             float: left;
+             margin-bottom: 0;
+             padding-left: 20px;
+            
+            
+        }
+        
+       .note .operation{
+           display: flex;
+        justify-content: flex-end;
+        margin-left: 230px;
+       }
+              
+        .note .operation button{
+            background-color: #fff;
+            border: none;
+            color: #fff;
+            font-size: 30px;
+            outline: none;
+            cursor: pointer;
+            margin-top: 5px;
+          
+           
+        }
+       .delete{
+           margin-left: 7px;
+           margin-right: 5px;
+       }
+        .fa-edit{
+            background-color: green;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+           
+        }
+        .fa-trash-alt{
+            background-color: red;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .fa-edit:hover{
+            background-color: #fff;
+            color: green;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .fa-trash-alt:hover{
+            background-color: #fff;
+            color: red;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+         textarea{
+            width: 360px;
+            height: 200px;
+            border: none;
+            outline: none;
+            padding: 10px 17px;
+            overflow-x: hidden;
+            
+        
+        }
+        .hidden{
+            display: none;
+        }
+       
